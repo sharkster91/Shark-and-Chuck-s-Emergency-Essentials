@@ -1,0 +1,66 @@
+module Base
+{
+
+		model SupplyBox
+	{
+		mesh = WorldItems/SupplyBox,
+		texture = WorldItems/SupplyBox,
+		scale = 1.0,
+	}
+
+		model SupplyBoxBlank
+	{
+		mesh = WorldItems/SupplyBox,
+		texture = WorldItems/SupplyBoxBlank,
+		scale = 1.0,
+	}
+
+		model BodyBagBox
+	{
+		mesh = WorldItems/SupplyBox,
+		texture = WorldItems/BodyBagBox,
+		scale = 1.0,
+	}
+	
+		model MRE
+	{
+		mesh = WorldItems/MRE,
+		texture = WorldItems/MRE,
+		scale = 1.0,
+	}
+	
+		model MREWrapper
+	{
+		mesh = WorldItems/MREWrapper,
+		texture = WorldItems/MRE,
+		scale = 1.0,
+	}
+
+		model EmergencyWaterRation
+	{
+		mesh = WorldItems/EmergencyWaterRation,
+		texture = WorldItems/EmergencyWaterRation,
+		scale = 1.0,
+	}
+
+		model EmergencyWaterRationOpen
+	{
+		mesh = WorldItems/EmergencyWaterRation,
+		texture = WorldItems/EmergencyWaterRationOpen,
+		scale = 1.0,
+	}
+
+		model BodyBagEmpty
+	{
+		mesh = WorldItems/BodyBagEmpty,
+		texture = WorldItems/BodyBag,
+		scale = 1.0,
+	}
+
+		model BodyBagFull
+	{
+		mesh = WorldItems/BodyBagFull,
+		texture = WorldItems/BodyBag,
+		scale = 1.0,
+	}
+}

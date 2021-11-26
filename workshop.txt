@@ -1,0 +1,11 @@
+version=1
+title=Shark's Emergency Essentials
+description=Contained in this pack are the following mods:
+description= 
+description= * Shark's Emergency Essentials: Adds supplies originally from Expanded Helicopter Events but also brand new assets.
+description= 
+description= * Shark's Disaster Vehicles: Vehicle reskins of Filibuster Used Car's designed for the Zomboid RP community as loot containers for Disaster Supplies.
+description= 
+description= 
+tags=
+visibility=private

@@ -1,0 +1,55 @@
+ module SACEE
+{	
+	item EmergencyWaterRation_SACEE
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Emergency Water Ration,
+		Icon	=	EmergencyWaterRation_SACEE,
+		Tooltip = Tooltip_WaterSealed,
+		StaticModel = EmergencyWaterRation,
+		WorldStaticModel = EmergencyWaterRation,
+	}
+
+    item EmergencyWaterRationOpen_SACEE
+
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Emergency Water Ration (Open),
+		Icon	=	EmergencyWaterRation_SACEE,
+		Tooltip = Tooltip_WaterUnsealed,
+		StaticModel = EmergencyWaterRationOpen,
+		WorldStaticModel = EmergencyWaterRationOpen,
+		CustomEatSound = DrinkingFromCan,
+	}
+
+		item MealReadytoEat_SACEE
+	{
+		HungerChange	= -60,
+		Weight		= 0.6,
+		Type		= Food,
+		DisplayName	= MRE,
+		Icon		= MRE_SACEE,
+        Carbohydrates 	= 150,
+        Proteins 	= 45,
+        Lipids 		= 66,
+        Calories 	= 1800,
+        Packaged 	= TRUE,
+		ReplaceOnUse = MREWrapper,
+		WorldStaticModel = MRE,
+	}
+
+		item MREWrapper_SACEE
+	{
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	MRE Wrapper,
+		Icon	=	MRE_SACEE,
+		WorldStaticModel = MREWrapper,
+	}
+}

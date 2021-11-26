@@ -1,0 +1,34 @@
+module SACEE
+{
+	   item EmergencyFoodSupplyBox_SACEE
+	{
+		Weight			=	6.3,
+		Icon			=	SACEE_SupplyBox_aid,
+		DisplayName		=	Supply Box,
+		WorldStaticModel = SupplyBox,
+	}
+
+		item EmergencyWaterSupplyBox_SACEE
+	{
+		Weight			=	6.3,
+		Icon			=	SACEE_SupplyBox_aid,
+		DisplayName		=	Supply Box,
+		WorldStaticModel = SupplyBox,
+	}
+
+		item EmergencyMedicalSupplyBox_SACEE
+	{
+		Weight			=	6.3,
+		Icon			=	SACEE_SupplyBox_aid,
+		DisplayName		=	Supply Box,
+		WorldStaticModel = SupplyBox,
+	}
+
+		item BodyBagBox_SACEE
+	{
+		Weight			=	6.3,
+		Icon			=	SACEE_SupplyBox_blank,
+		DisplayName		=	Box of Body Bags,
+		WorldStaticModel = BodyBagBox,
+	}
+}

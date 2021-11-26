@@ -1,0 +1,5 @@
+Tooltip_EN = {
+    
+    Tooltip_BodyBag_Zombie = "There is movement within the bag",
+
+}

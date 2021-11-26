@@ -1,0 +1,95 @@
+module SACEE
+{
+
+       recipe Open Supplies
+    {
+       EmergencyFoodSupplyBox_SACEE,
+       keep [SACEE_Recipe.CanOpenBoxes],
+       Result:MealReadytoEat_SACEE,
+       OnCreate:SACEE_Recipe.FOOD,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+           recipe Open Supplies
+        {
+           EmergencyFoodSupplyBox_SACEE,
+           Result:MealReadytoEat_SACEE,
+           OnCreate:SACEE_Recipe.FOOD,
+           Tooltip:Tooltip_open_boxes_barehanded,
+           Time:210.0,
+           Sound:OpenBox,
+        }
+      
+        recipe Open Supplies
+    {
+       EmergencyWaterSupplyBox_SACEE,
+       keep [SACEE_Recipe.CanOpenBoxes],
+       Result:EmergencyWaterRation_SACEE
+       OnCreate:SACEE_Recipe.WATER,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+           recipe Open Supplies
+        {
+           EmergencyWaterSupplyBox_SACEE,
+           Result:EmergencyWaterRation_SACEE
+           OnCreate:SACEE_Recipe.WATER,
+           Tooltip:Tooltip_open_boxes_barehanded,
+           Time:210.0,
+           Sound:OpenBox,
+        }
+
+	   recipe Open Supplies
+    {
+       EmergencyMedicalSupplyBox_SACEE,
+       keep [SACEE_Recipe.CanOpenBoxes],
+       Result:Hat_SurgicalMask_Blue,
+       OnCreate:SACEE_Recipe.MEDICAL,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+           recipe Open Supplies
+        {
+           EmergencyMedicalSupplyBox_SACEE,
+           Result:Hat_SurgicalMask_Blue,
+           OnCreate:SACEE_Recipe.MEDICAL,
+           Tooltip:Tooltip_open_boxes_barehanded,
+           Time:210.0,
+           Sound:OpenBox,
+        }
+   
+	   recipe Open Supplies
+    {
+       BodyBagBox_SACEE,
+       keep [SACEE_Recipe.CanOpenBoxes],
+       Result:BodyBagEmpty,
+       OnCreate:SACEE_Recipe.BODYBAG,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+           recipe Open Supplies
+        {
+           BodyBagBox_SACEE,
+           Result:BodyBagEmpty,
+           OnCreate:SACEE_Recipe.BODYBAG,
+           Tooltip:Tooltip_open_boxes_barehanded,
+           Time:210.0,
+           Sound:OpenBox,
+        }
+
+           recipe Unseal Water Ration
+    {
+          EmergencyWaterRation_SACEE
+          Result:EmergencyWaterRationOpen_SACEE=1,
+          Time:5.0,
+    }
+
+           recipe Put the body into the bag
+    {
+          CorpseMale/CorpseFemale,
+          BodyBagEmpty,
+          Result:BodyBagFull,
+          Time:70.0,
+    }
+
+}
