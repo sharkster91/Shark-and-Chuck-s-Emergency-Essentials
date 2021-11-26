@@ -1,16 +1,5 @@
 SACEE_Recipe = {}
 
-
--- Example OnCanPerform function.
---- OnCanPerform:SACEE_Recipe.MustBeWearing_FirstItem,
-function SACEE_Recipe.MustBeWearing_FirstItem(recipe, playerObj)
-	---print("SACEE_RECIPE DEBUG:")
-	--local wornItem = playerObj:getWornItem("MaskEyes")
-	--return (wornItem ~= nil) and (wornItem:getType() == "Hat_HockeyMask")
-	return true
-end
-
-
 function SACEE_Recipe.CanOpenBoxes(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("CanOpenBoxes"))
 end
