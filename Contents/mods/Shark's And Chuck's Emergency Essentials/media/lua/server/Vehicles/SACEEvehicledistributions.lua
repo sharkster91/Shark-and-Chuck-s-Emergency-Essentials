@@ -5,9 +5,9 @@ VehicleDistributions.SACEEFEMATruckBed = {
     rolls = 20,
     items ={
 
-        "SACEE.EmergencyFoodSupplyBox_SACEE", 30,
-        "SACEE.EmergencyWaterSupplyBox_SACEE", 30,
-        "SACEE.EmergencyMedicalSupplyBox_SACEE", 30,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 10,
+        "SACEE.EmergencyWaterSupplyBox_SACEE", 10,
+        "SACEE.EmergencyMedicalSupplyBox_SACEE", 10,
 		"SACEE.BodyBagBox_SACEE", 20,
 
     }
@@ -27,9 +27,9 @@ VehicleDistributions.SACEEStateEmergencyTruckBed = {
     rolls = 20,
     items ={
 
-        "SACEE.EmergencyFoodSupplyBox_SACEE", 30,
-        "SACEE.EmergencyWaterSupplyBox_SACEE", 30,
-        "SACEE.EmergencyMedicalSupplyBox_SACEE", 30,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 10,
+        "SACEE.EmergencyWaterSupplyBox_SACEE", 10,
+        "SACEE.EmergencyMedicalSupplyBox_SACEE", 10,
 		"SACEE.BodyBagBox_SACEE", 20,
 
     }
@@ -77,8 +77,8 @@ VehicleDistributions.SACEEFEMABodies = {
 distributionTable["VanFEMA"] = { Normal = VehicleDistributions.SACEEFEMA; }
 distributionTable["VanFEMABodies"] = { Normal = VehicleDistributions.SACEEFEMABodies; }
 
-distributionTable["pickupvanStateEmergency"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
-distributionTable["pickupvanStateEmergencyBodies"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
+distributionTable["PickUpVanStateEmergency"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
+distributionTable["PickUpVanStateEmergencyBodies"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
 
 distributionTable["VanStateEmergency"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
 distributionTable["VanStateEmergencyBodies"] = { Normal = VehicleDistributions.SACEEStateEmergencyBodies; }
