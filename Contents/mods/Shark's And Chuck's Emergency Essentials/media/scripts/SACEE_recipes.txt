@@ -89,7 +89,7 @@ module SACEE
           CorpseMale/CorpseFemale,
           BodyBagEmpty,
           Result:BodyBagFull,
-          Sound: closeBag,
+          Sound: CloseBag,
           Time:70.0,
     }
 
