@@ -1,11 +1,10 @@
 IG_UI_EN = {
     
     IGUI_VehicleNameVanFEMA = "FEMA Van",
+    IGUI_VehicleNameVanFEMABodies = "FEMA Van",
     IGUI_VehicleNameVanRadioFEMA = "FEMA Mobile Command Center",
 
     IGUI_VehicleNameVanStateEmergency = "State Emergency Van",
     IGUI_VehicleNameVanStateEmergencyBodies = "State Emergency Van",
-    IGUI_VehicleNamePickUpVanStateEmergency = "State Emergency Pick-Up Van",
-    IGUI_VehicleNamePickUpVanStateEmergencyBodies = "State Emergency Pick-Up Van",
 
 }
