@@ -5,13 +5,13 @@ VehicleDistributions.SACEEFEMATruckBed = {
     rolls = 25,
     items ={
 
-        "SACEE.EmergencyFoodSupplyBox_SACEE", 5,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 7,
         "SACEE.EmergencyWaterSupplyBox_SACEE", 5,
         "SACEE.EmergencyMedicalSupplyBox_SACEE", 5,
 		"SACEE.BodyBagBox_SACEE", 10,
-        "SACEE.Jacket_FEMA", 30,
+        "SACEE.Jacket_FEMA", 15,
         "HazmatSuit", 5,
-        "Vest_HighViz", 30,
+        "Vest_HighViz", 10,
 
     }
 }
@@ -30,10 +30,10 @@ VehicleDistributions.SACEEStateEmergencyTruckBed = {
     rolls = 25,
     items ={
 
-        "SACEE.EmergencyFoodSupplyBox_SACEE", 5,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 7,
         "SACEE.EmergencyWaterSupplyBox_SACEE", 5,
         "SACEE.EmergencyMedicalSupplyBox_SACEE", 5,
-		"SACEE.BodyBagBox_SACEE", 10,
+        "SACEE.Jacket_FEMA", 15,
         "HazmatSuit", 5,
         "Vest_HighViz", 10,
 
