@@ -81,8 +81,5 @@ VehicleDistributions.SACEEFEMABodies = {
 distributionTable["VanFEMA"] = { Normal = VehicleDistributions.SACEEFEMA; }
 distributionTable["VanFEMABodies"] = { Normal = VehicleDistributions.SACEEFEMABodies; }
 
-distributionTable["PickUpVanStateEmergency"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
-distributionTable["PickUpVanStateEmergencyBodies"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
-
 distributionTable["VanStateEmergency"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
 distributionTable["VanStateEmergencyBodies"] = { Normal = VehicleDistributions.SACEEStateEmergencyBodies; }
