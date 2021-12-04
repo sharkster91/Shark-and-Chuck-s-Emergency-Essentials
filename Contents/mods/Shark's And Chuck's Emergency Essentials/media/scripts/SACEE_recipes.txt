@@ -32,7 +32,7 @@ module SACEE
            recipe Open Supplies
         {
            EmergencyWaterSupplyBox_SACEE,
-           Result:EmergencyWaterRation_SACEE
+           Result:EmergencyWaterRation_SACEE,
            OnCreate:SACEE_Recipe.WATER,
            Tooltip:Tooltip_open_boxes_barehanded,
            Time:210.0,
@@ -67,7 +67,7 @@ module SACEE
        Time:70.0,
        Sound:OpenBox,
     }
-           recipe Open Supplies
+         recipe Open Supplies
         {
            BodyBagBox_SACEE,
            Result:BodyBagEmpty,
@@ -77,14 +77,14 @@ module SACEE
            Sound:OpenBox,
         }
 
-           recipe Unseal Water Ration
+         recipe Unseal Water Ration
     {
           EmergencyWaterRation_SACEE,
           Result:EmergencyWaterRationOpen_SACEE,
           Time:5.0,
     }
 
-        recipe Put the body into the bag
+         recipe Put the body into the bag
     {
           CorpseMale/CorpseFemale,
           BodyBagEmpty,
