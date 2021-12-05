@@ -1,31 +1,26 @@
 module SACEE
 {
 
-	item BodyBagEmpty
+	    item BodyBagEmpty
     {
-        Weight	=	0.3,
+        Weight	=	0.1,
         Type	=	Normal,
         DisplayName	=   Body Bag (Empty),
         Icon	=	BodyBag,
         WorldStaticModel = BodyBagEmpty,
     }
 
-    item BodyBagFull
+        item BodyBag
     {
-        Weight	=	10,
-        Type	=	Normal,
-        DisplayName	=   Body Bag (Full),
+        Weight	=	0.1,
+        Type	=	Container,
+        DisplayName	=   Body Bag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBodybag,
+        PutInSound   =   OpenBodybag,
+        Capacity = 20,
+        DisplayName	=   Body Bag,
         Icon	=	BodyBag,
-        WorldStaticModel = BodyBagFull,
-    }
-
-        item BodyBagZombie
-    {
-        Weight	=	10,
-        Type	=	Normal,
-        DisplayName	=   Body Bag (Full),
-        Icon	=	BodyBag,
-        Tooltip  = Tooltip_BodyBag_Zombie,
         WorldStaticModel = BodyBagFull,
     }
 }

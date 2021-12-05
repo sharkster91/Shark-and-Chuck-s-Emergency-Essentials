@@ -84,13 +84,11 @@ module SACEE
           Time:5.0,
     }
 
-         recipe Put the body into the bag
+         recipe Prepare for use
     {
-          CorpseMale/CorpseFemale,
           BodyBagEmpty,
-          Result:BodyBagFull,
-          Sound: CloseBag,
-          Time:70.0,
+          Result:BodyBag,
+          Time:100.0,
     }
-
+    
 }

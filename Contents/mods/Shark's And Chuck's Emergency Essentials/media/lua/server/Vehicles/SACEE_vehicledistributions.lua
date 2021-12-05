@@ -20,8 +20,7 @@ VehicleDistributions.SACEEFEMABodiesTruckBed = {
     rolls = 100,
     items ={
 
-		"SACEE.BodyBagFull", 50,
-		"SACEE.BodyBagZombie", 10,
+		"SACEE.BodyBag", 50,
 
     }
 }
@@ -44,8 +43,7 @@ VehicleDistributions.SACEEStateEmergencyBodiesTruckBed = {
 	rolls = 100,
     items ={
 
-		"SACEE.BodyBagFull", 50,
-		"SACEE.BodyBagZombie", 10,
+		"SACEE.BodyBag", 50,
 
     }
 }
