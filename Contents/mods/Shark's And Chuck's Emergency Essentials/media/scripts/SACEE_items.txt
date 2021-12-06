@@ -1,15 +1,6 @@
 module SACEE
 {
 
-	    item BodyBagEmpty
-    {
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	=   Body Bag (Empty),
-        Icon	=	BodyBag,
-        WorldStaticModel = BodyBagEmpty,
-    }
-
         item BodyBag
     {
         Weight	=	0.1,
@@ -22,5 +13,7 @@ module SACEE
         DisplayName	=   Body Bag,
         Icon	=	BodyBag,
         WorldStaticModel = BodyBagFull,
+        /*BodyBagEmpty*/
     }
+
 }
