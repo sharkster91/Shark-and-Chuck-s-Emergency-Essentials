@@ -31,4 +31,12 @@ module SACEE
 		DisplayName		=	Box of Body Bags,
 		WorldStaticModel = BodyBagBox,
 	}
+
+		item FlyerBox_SACEE
+	{
+		Weight			=	3,
+		Icon			=	SACEE_SupplyBox_blank,
+		DisplayName		=	Box of Flyers,
+		WorldStaticModel = SupplyBoxBlank,
+	}
 }

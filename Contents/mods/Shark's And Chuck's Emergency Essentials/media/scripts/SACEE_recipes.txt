@@ -57,6 +57,24 @@ module SACEE
            Time:210.0,
            Sound:OpenBox,
         }
+
+        	recipe Open Box of Flyers
+    {
+       FlyerBox_SACEE,
+       keep [SACEE_Recipe.CanOpenBoxes],
+       Result:DisasterAssistanceFlyer,
+       OnCreate:SACEE_Recipe.FLYER,
+       Time:70.0,
+       Sound:OpenBox,
+    }
+         recipe Open Box of Flyers
+        {
+           FlyerBox_SACEE,
+           Result:DisasterAssistanceFlyer,
+           OnCreate:SACEE_Recipe.FLYER,
+           Time:210.0,
+           Sound:OpenBox,
+        }
    
 	   recipe Open Supplies
     {

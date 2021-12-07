@@ -27,6 +27,11 @@ function SACEE_Recipe.BODYBAG(recipe, result, player)
 	player:getInventory():AddItems("SACEE.BodyBagEmpty", 9)
 end
 
+function SACEE_Recipe.FLYER(recipe, result, player)
+	player:getInventory():AddItems("SACEE.DisasterAssistanceFlyer", 39)
+	player:getInventory():AddItems("SACEE.PublicAwarenessFlyer", 39)
+end
+
 
 SACEE_Recipe.typesThatCanOpenBoxes = SACEE_Recipe.typesThatCanOpenBoxes or {}
 
