@@ -2,15 +2,37 @@
 local distributionTable = VehicleDistributions[1]
 
 VehicleDistributions.SACEEFEMATruckBed = {
-    rolls = 25,
+    rolls = 20,
     items ={
 
-        "SACEE.EmergencyFoodSupplyBox_SACEE", 7,
-        "SACEE.EmergencyWaterSupplyBox_SACEE", 5,
-        "SACEE.EmergencyMedicalSupplyBox_SACEE", 5,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 15,
+        "SACEE.EmergencyWaterSupplyBox_SACEE", 10,
+        "SACEE.EmergencyMedicalSupplyBox_SACEE", 10,
 		"SACEE.BodyBagBox_SACEE", 10,
-        "SACEE.Jacket_FEMA", 15,
-        "HazmatSuit", 5,
+        "SACEE.FlyerBox_SACEE", 10,
+        "SACEE.Jacket_FEMA", 20,
+        "SACEE.PublicAwarenessFlyer", 5,
+        "SACEE.DisasterAssistance", 5,
+        "HazmatSuit", 1,
+        "Hat_DustMask", 10,
+        "Radio.WalkieTalkie3", 10,
+        "Vest_HighViz", 10,
+
+    }
+}
+
+VehicleDistributions.SACEEFEMACommandTruckBed = {
+    rolls = 20,
+    items ={
+
+        "SACEE.Jacket_FEMA", 20,
+        "Hat_DustMask", 10,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 15,
+        "Radio.WalkieTalkie3", 20,
+        "SACEE.FlyerBox_SACEE", 10,
+        "SACEE.PublicAwarenessFlyer", 5,
+        "SACEE.DisasterAssistance", 5,
+        "Radio.HamRadio1", 10,
         "Vest_HighViz", 10,
 
     }
@@ -26,14 +48,15 @@ VehicleDistributions.SACEEFEMABodiesTruckBed = {
 }
 
 VehicleDistributions.SACEEStateEmergencyTruckBed = {
-    rolls = 25,
+    rolls = 20,
     items ={
 
-        "SACEE.EmergencyFoodSupplyBox_SACEE", 7,
-        "SACEE.EmergencyWaterSupplyBox_SACEE", 5,
-        "SACEE.EmergencyMedicalSupplyBox_SACEE", 5,
-        "SACEE.Jacket_FEMA", 15,
-        "HazmatSuit", 5,
+        "SACEE.EmergencyFoodSupplyBox_SACEE", 10,
+        "SACEE.EmergencyWaterSupplyBox_SACEE", 10,
+        "SACEE.EmergencyMedicalSupplyBox_SACEE", 10,
+		"SACEE.BodyBagBox_SACEE", 10,
+        "Hat_DustMask", 10,
+        "Radio.WalkieTalkie3", 10,
         "Vest_HighViz", 10,
 
     }
@@ -69,6 +92,13 @@ VehicleDistributions.SACEEFEMA = {
      
 }
 
+VehicleDistributions.SACEEFEMACommand = {
+
+    TruckBed = VehicleDistributions.SACEEFEMACommandTruckBed;
+    TruckbedOpen = VehicleDistributions.SACEEFEMACommandTruckBed;
+     
+}
+
 VehicleDistributions.SACEEFEMABodies = {
 
     TruckBed = VehicleDistributions.SACEEFEMABodiesTruckBed;
@@ -77,6 +107,7 @@ VehicleDistributions.SACEEFEMABodies = {
 }
 
 distributionTable["VanFEMA"] = { Normal = VehicleDistributions.SACEEFEMA; }
+distributionTable["VanRadioFEMA"] = { Normal = VehicleDistributions.SACEEFEMACommand; }
 distributionTable["VanFEMABodies"] = { Normal = VehicleDistributions.SACEEFEMABodies; }
 
 distributionTable["VanStateEmergency"] = { Normal = VehicleDistributions.SACEEStateEmergency; }
