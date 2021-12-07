@@ -3,6 +3,7 @@ module SACEE
 
         item BodyBag
     {
+        DisplayCategory = Bag,
         Weight	=	0.1,
         Type	=	Container,
         DisplayName	=   Body Bag,
