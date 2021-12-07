@@ -1,0 +1,26 @@
+module SACEE
+{
+
+        item DisasterAssistanceFlyer
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Disaster Assistance Flyer,
+		Icon = Flyer,
+		Tooltip = Tooltip_FlyerDisaster,
+		Map = media/ui/content/DisasterFlyer.png,
+		WorldStaticModel = DisasterFlyer,
+	}
+
+        item PublicAwarenessFlyer
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Public Awareness Flyer,
+		Icon = Flyer,
+		Tooltip = Tooltip_FlyerAwareness,
+		Map = media/ui/content/AwarenessFlyer.png,
+		WorldStaticModel = AwarenessFlyer,
+	}
+	
+}
