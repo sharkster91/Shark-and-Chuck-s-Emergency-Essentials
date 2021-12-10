@@ -3,6 +3,7 @@ module SACEE
 
         item DisasterAssistanceFlyer
 	{
+		DisplayCategory = Literature,
 		Weight = 0.1,
 		Type = Normal,
 		DisplayName = Disaster Assistance Flyer,
@@ -14,6 +15,7 @@ module SACEE
 
         item PublicAwarenessFlyer
 	{
+		DisplayCategory = Literature,
 		Weight = 0.1,
 		Type = Normal,
 		DisplayName = Public Awareness Flyer,

@@ -2,6 +2,7 @@
 {	
 	item EmergencyWaterRation_SACEE
 	{
+		DisplayCategory = WaterContainer,
 		Weight	=	0.3,
 		Type	=	Normal,
 		DisplayName	=	Emergency Water Ration,
@@ -14,6 +15,7 @@
     item EmergencyWaterRationOpen_SACEE
 
 	{
+		DisplayCategory = WaterContainer,
 		IsWaterSource	=	TRUE,
 		Weight	=	0.3,
 		CanStoreWater	=	TRUE,
@@ -30,6 +32,7 @@
 
 		item MealReadytoEat_SACEE
 	{
+		DisplayCategory = Food,
 		HungerChange	= -60,
 		Weight		= 0.6,
 		Type		= Food,
@@ -46,6 +49,7 @@
 
 		item MREWrapper_SACEE
 	{
+		DisplayCategory = Junk,
 		Weight	=	0.1,
 		Type	=	Normal,
 		DisplayName	=	MRE Wrapper,
