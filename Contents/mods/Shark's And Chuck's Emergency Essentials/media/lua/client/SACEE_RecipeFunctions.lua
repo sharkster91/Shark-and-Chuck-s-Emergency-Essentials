@@ -29,7 +29,6 @@ end
 
 function SACEE_Recipe.FLYER(recipe, result, player)
 	player:getInventory():AddItems("SACEE.DisasterAssistanceFlyer", 39)
-	player:getInventory():AddItems("SACEE.PublicAwarenessFlyer", 39)
 end
 
 

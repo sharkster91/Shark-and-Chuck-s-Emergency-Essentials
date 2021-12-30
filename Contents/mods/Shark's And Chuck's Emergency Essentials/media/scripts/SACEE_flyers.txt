@@ -12,17 +12,4 @@ module SACEE
 		Map = media/ui/content/DisasterFlyer.png,
 		WorldStaticModel = DisasterFlyer,
 	}
-
-        item PublicAwarenessFlyer
-	{
-		DisplayCategory = Literature,
-		Weight = 0.1,
-		Type = Normal,
-		DisplayName = Public Awareness Flyer,
-		Icon = Flyer,
-		Tooltip = Tooltip_FlyerAwareness,
-		Map = media/ui/content/AwarenessFlyer.png,
-		WorldStaticModel = AwarenessFlyer,
-	}
-	
 }

@@ -22,13 +22,6 @@ module Base
 		scale = 1.0,
 	}
 
-		model AwarenessFlyer
-	{
-		mesh = WorldItems/SheetOfPaper,
-		texture = WorldItems/AwarenessFlyer,
-		scale = 1.0,
-	}
-
 		model BodyBagBox
 	{
 		mesh = WorldItems/SupplyBox,
